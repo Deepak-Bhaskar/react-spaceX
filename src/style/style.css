@@ -61,6 +61,10 @@ body,
   font-size: 13px;
   cursor: pointer;
   font-weight: 500;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebarList li span.active {
@@ -144,7 +148,7 @@ ul {
 
 .emptyMission {
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 @media (max-width: 1024px) {

@@ -73,9 +73,9 @@ class Home extends Component {
               launch_success={launch_success}
               land_success={land_success}
             />
-            <div className="missionWrapper">
+            <section className="missionWrapper">
               <MissionsInfoComponent missions={missions} loading={loading} />
-            </div>
+            </section>
           </div>
         </div>
       </div>

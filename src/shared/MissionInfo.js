@@ -21,7 +21,7 @@ const MissionInfo = ({ missions, loading }) => {
                   />
                 </div>
                 <div className="cardContent">
-                  <Link to="#" className="cardTitle">
+                  <Link to="#" className="cardTitle" title={data.mission_name}>
                     {`${missionTitle} #${data.flight_number}`}
                   </Link>
                   <ul className="contentList">
